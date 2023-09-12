@@ -11,7 +11,7 @@ int main() {
 
   }
   if (d == 0) {
-    printf("x1=x2=%d\n", -b / (2 * a));
+    printf("x1=x2=%d\n", (-b + sqrt(d) / (2 * a)));
   }
   if (d < 0) {
     int p = -b / 2 * a;
